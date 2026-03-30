@@ -1,0 +1,220 @@
+.landing{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.running{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+#changing-text{
+    font-size: 30px;
+}
+
+.tombol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 220px;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.btn:hover {
+  transform: scale(1.07);
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+}
+
+
+.boxlogin{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 100px;
+    border-radius: 20px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.input-group{
+    position: relative;
+    width: 200px;
+}
+
+.input-group input{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding-left: 35px;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 45px;
+    padding: 0px;
+}
+
+.icon-right{
+    position: absolute;
+    padding: 0 10px;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    width: 45px;
+}
+
+.loginbtn{
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    margin-top: 15px;
+
+    
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+
+.loginbtn:hover {
+  transform: scale(1.07);
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.boxregister{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 100px;
+    color: white;
+    max-width: 350px;
+    border-radius: 0 30px 30px 0;
+
+}
+
+.inputfield{
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.inputfield label{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.inputfield input{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 13px;
+    border: 2px solid;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: all 0.3 ease;
+    outline: none;
+}
+
+input[type="date"] {
+    cursor: pointer;
+    color: #757575;
+}
+
+.inputfield img{
+    position: absolute;
+    width: 40px;
+    left: -45px;
+    top: 50%;
+    transform: translateY(-20%);
+}
+
+.gambartangan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tangan{
+    height: 605px;
+    width: 620px;
+    flex-shrink: 0;
+    display: block;
+    object-fit: cover;
+    border-radius: 30px 0 0 30px;
+}
+
