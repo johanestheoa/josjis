@@ -31,7 +31,7 @@ async function handleRegister() {
         const pendingUser = { email: email, password: pass, otp: otp };
         localStorage.setItem('pending_user', JSON.stringify(pendingUser));
 
-        window.location.href = "verify.html";
+        window.location.href = "registry.html";
     } catch (error) {
         alert("Gagal kirim: " + JSON.stringify(error));
     }
