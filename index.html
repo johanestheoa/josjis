@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Test - EmailJS</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("YOUR_PUBLIC_KEY"); // GANTI DENGAN PUBLIC KEY KAMU
+        })();
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="register-box">
+            <h2>Daftar Akun</h2>
+            <input type="email" id="reg-email" placeholder="Email Aktif">
+            <input type="password" id="reg-pass" placeholder="Password (Min 8 Karakter)">
+            <button onclick="handleRegister()">Kirim Kode OTP</button>
+            <p>Sudah punya akun? <a href="#" onclick="toggleForm()">Login</a></p>
+        </div>
+
+        <div class="box" id="login-box" style="display:none;">
+            <h2>Masuk</h2>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-pass" placeholder="Password">
+            <button onclick="handleLogin()">Login</button>
+            <p>Belum punya akun? <a href="#" onclick="toggleForm()">Daftar</a></p>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
